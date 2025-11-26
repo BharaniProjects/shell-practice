@@ -1,8 +1,8 @@
 #!/bin/bash
-R=\n[31m
-G=\n[32m
-Y=\n[33m
-N=\n[0n
+R="\n[31m"
+G="\n[32m"
+Y="\n[33m"
+N="\n[0n"
 ID=$(id -u)
 if [ $ID -ne 0 ]
 then
