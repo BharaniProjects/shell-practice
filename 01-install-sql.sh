@@ -11,7 +11,7 @@ then
 else
     echo -e "$G You are root user.$N"
 fi
-dnf install mysql
+dnf install mysql -y
 if [ $? -ne 0 ]
 then
     echo -e "$R Installing mysql failed.$N"
