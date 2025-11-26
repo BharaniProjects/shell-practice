@@ -18,3 +18,4 @@ then
     exit 1
 else
     echo -e "$G Installing mysql is success.$N"
+fi
