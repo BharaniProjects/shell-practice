@@ -9,12 +9,12 @@ then
   echo -e "ERROR :$R Please run with root user.$N"
   exit 1
 else
-    echo "$G You are root user.$N"
+    echo -e "$G You are root user.$N"
 fi
 dnf install mysql
 if [ $? -ne 0 ]
 then
-    echo "$R Installing mysql failed.$N"
+    echo -e "$R Installing mysql failed.$N"
     exit 1
 else
-    echo "$G Installing mysql is success.$N"
+    echo -e "$G Installing mysql is success.$N"
